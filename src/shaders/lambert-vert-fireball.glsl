@@ -59,7 +59,7 @@ float bias (float b, float t) {
 float fireballSilhouetteDisplacement (vec3 position) {
     float shrinkAmount = 0.0;
 
-    float t_height = (position.y + 1.0) / 2.0;
+    float t_height = (position.y + 1.0) / 1.5;
 
     // lerp
     // shrinkAmount = ((1.0 - t_height) * 0.0) + (t_height * 1.0);
